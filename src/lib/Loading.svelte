@@ -1,8 +1,8 @@
-
-<h1>payverge</h1>
-
-<div class="things">
-        <div class="thing">
+<main>
+    
+    <h1>payverge</h1>
+    
+    <div class="things">
             <div class="thing">
                 <div class="thing">
                     <div class="thing">
@@ -12,7 +12,9 @@
                                     <div class="thing">
                                         <div class="thing">
                                             <div class="thing">
-                                                
+                                                <div class="thing">
+    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -22,8 +24,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-</div>
+    </div>
+</main>
 
 
 <style>
@@ -33,7 +35,7 @@
   box-sizing: border-box;
 }
 
-:global(body) {
+main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
