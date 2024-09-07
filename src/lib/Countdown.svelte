@@ -74,8 +74,8 @@
       height: 100%;
       overflow: hidden;
       background-color: var(--darker-blue);
-      background-image: url(bg-stars.svg);
-      background-image: url(bg-stars.svg),
+      background-image: url("$lib/assets/bg-stars.svg");
+      background-image: url("$lib/assets/bg-stars.svg"), 
         linear-gradient(var(--darkest-blue), var(--darker-blue));
     }
     :global(body > *) {
@@ -107,7 +107,7 @@
     }
   
     footer {
-      background-image: url(pattern-hills.svg);
+      background-image: url("$lib/assets/pattern-hills.svg");
       background-repeat: no-repeat;
       background-position-y: top;
       background-position-x: 80%;
