@@ -5,7 +5,7 @@
 
    setTimeout(() => {
     data = "gotten"
-   }, 2500)
+   }, 4000)
   
 </script>
 
